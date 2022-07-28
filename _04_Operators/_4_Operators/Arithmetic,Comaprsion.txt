@@ -1,0 +1,118 @@
+# ARithmetic operatiors 
+# Addition
+===========
+>>> x = 10
+>>> y = 20
+>>> result = x+y
+>>> res = 10 + 20
+>>> print(10+20)
+30
+>>> print(x+y)
+30
+>>> result
+30
+>>> res
+30
+>>> # Given x = 10,y = 20.Find the value of expression x+y
+... # As given
+... x = 109
+>>> x = 10
+>>> y = 20
+>>> # Given expression
+... # x+y
+... # Substitute given values
+... 10+20
+30
+
+
+
+# Add 2 numbers 
+SC 1: Add directly and print the result 
+>>> print(10+20)
+30
+
+>>> 10+20 # Invalid in .py file 
+
+SC 2: Add 2 numbers and give output value to a variable and print the result 
+>>> res = 10+20
+>>> print(res)
+30
+
+SC 3: Give values to 2 references
+>>> x = 10
+>>> y = 20 
+   Repeat above 2 scenarios
+		>>> print(x+y)
+		30
+		>>> res = x+y
+		>>> print(res)
+		30  
+
+
+
+1. Arithmetic:
+==================
+>>> x = 20
+>>> y = 3
+>>> print("Addition:",x+y)
+Addition: 23
+>>> print("Subtraction:", x-y)
+Subtraction: 17
+>>> print("Mulitplication:", x*y)
+Mulitplication: 60
+>>> print("Division :", x/y)
+Division : 6.666666666666667
+>>> print("Floor Division :", x//y)
+Floor Division : 6
+>>> print("Modulus :", x/y)
+Modulus : 6.666666666666667
+>>> print("Modulus :", x%y)
+Modulus : 2
+>>> print("Exponential :", x**y)
+Exponential : 8000
+>>>
+
+
+>>> # comparison or relational
+>>>
+>>> print(10<20)
+True
+>>> print("Lessthan :", 10<20)
+Lessthan : True
+>>>
+>>> 10>20
+False
+>>> print("Greaterthan:", 10>20)
+Greaterthan: False
+>>>
+>>> x = 10
+>>> y = 10
+>>> print("Both equals :", x==y)
+Both equals : True
+>>> x != y
+False
+>>> x = 10
+>>> y = 20
+>>>
+>>> x >= y
+False
+>>>
+>>>
+>>> x <= y
+True
+
+>>> # assignment operator
+... x = 10
+>>> sal = 1000.4
+>>> name = 'Madhu.N'
+>>> is_active = True
+>>>
+
+X=y=10
+I'd(x)=356843
+X=20
+I'd(x)=46886
+again X=10
+Then I'd(x)=? (same as I'd(y))
+
+

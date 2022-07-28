@@ -1,0 +1,275 @@
+>>> x = 10
+>>> y = 20
+>>> x+y
+30
+>>> 10+20
+30
+>>> 10+20+30
+60
+>>> 10+20+30 # arithmetic operation
+60
+>>> x-y
+-10
+>>> x*y
+200
+>>> result = x+y
+>>> result
+30
+>>> sub = x-y
+>>> sub
+-10
+>>> mul = x*y
+>>> mul
+200
+>>> div = x/y
+>>> div
+0.5
+>>> fdiv = x//y
+>>> fdiv
+0
+>>> 20/3
+6.666666666666667
+>>> 20//3
+6
+>>> 10 ** 2
+100
+>>> 10.5+2
+12.5
+>>> 10.2+3  # float + int
+13.2
+>>> 10 + True
+11
+>>> 12 + True  # int + boolean   ===>  12 + int(True)
+13
+>>> int(True)
+1
+>>> int(False)
+0
+>>> 12 + '10'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+10+20+30
+
+
+10
+20
+---
+30
+
+30
+30
+---
+60
+
+00001010
+00010100
+--------------
+00001010 
+00100010
+----------
+
+
+let us assume x = 10
+....
+....
+....
+41st line x 
+
+
+>>>
+>>> # Relational / Comparision
+...
+>>> 10 == 10
+True
+>>> 10 == 5+5
+True
+>>> 10 == 10.0
+True
+>>>
+>>> 10 == 20
+False
+>>> 5 != 20
+True
+>>> 5 != 5
+False
+>>> 10 > 5
+True
+>>> 10 < 5
+False
+>>> x = 10
+>>> y = 20
+>>> x > y
+False
+>>> x < y
+True
+>>> 10 <= 10  # 10 lessthan or equal to 10  # False or True --> True
+True
+>>> 10 <= 12
+True
+>>> 10 <= 5
+False
+>>>
+>>> 10 >= 10
+True
+>>> 10 >= 6
+True
+>>> 10 >=20
+False
+>>>
+>>>
+>>> x = 10
+>>>
+>>>
+>>> # Assignment Operator
+... x = 10
+>>>
+>>> x
+10
+>>> x = 20
+>>> x
+20
+>>> result = 10+20+30
+>>> result = 10 <= 20
+>>> result
+True
+>>> result = 10 == 10
+>>> resukt
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'resukt' is not defined
+>>> result
+True
+>>> result = 10 != 20
+>>> result
+True
+>>> result = 10 != 10
+>>> result
+False
+>>> 10 + True  # int + boolean ==> int+int(bool)
+11
+>>> # We dont have increment, decrement ++ -- pre incr post incr pre decr post decr
+...
+>>> x = 10
+>>> x
+10
+>>> y = x+10
+>>> y
+20
+>>> x = x+5
+>>> x
+15
+>>> x = x-5
+>>> x
+10
+>>> x = x*5
+>>> x
+50
+>>> x = x/5
+>>> x
+10.0
+>>> x = x//5
+>>> x
+2.0
+>>> x = x%5
+>>> x
+2.0
+>>>
+>>> x = 12
+>>> x = x + 3
+>>> x
+15
+>>> x = 12
+>>> x += 3  # x = x+3
+>>> x
+15
+>>> x -= 2  # x = x-2
+>>> x
+13
+>>> x *= 4  # x = x*4
+>>> x
+52
+>>> x /= 3 # x = x/3
+>>> x
+17.333333333333332
+>>> x //= 2 # x = x//2
+>>> x
+8.0
+>>> x **= 4 # x = x**4
+>>> x
+4096.0
+>>> x %= 100   # x = x%100
+>>> x
+96.0
+>>>
+>>>
+>>> 10 + 20 + 30
+60
+>>>
+>>> 10 * 20
+200
+>>>  x = 10
+  File "<stdin>", line 1
+    x = 10
+    ^
+IndentationError: unexpected indent
+>>>
+>>>
+>>> x = 10
+>>> result = x * 2
+>>> result
+20
+>>> x,result
+(10, 20)
+>>>
+>>> x + 20
+30
+>>>
+>>> x -5
+5
+>>> result +100
+120
+>>>
+>>>
+>>> 10 + 20
+30
+>>> 30 + 100
+130
+>>> x = 30+!00
+  File "<stdin>", line 1
+    x = 30+!00
+           ^
+SyntaxError: invalid syntax
+>>> x = 30+100
+>>> x
+130
+>>>
+>>>
+>>> x = 1
+>>> x += 10
+>>> x
+11
+>>> x + 2
+13
+>>> y = 1
+>>> x,y
+(11, 1)
+>>>
+>>>
+>>> x= 1
+>>> y = x+1
+>>> x,y
+(1, 2)
+>>> x = x+1
+>>> x
+2
+>>> x = 1,2
+>>> x
+(1, 2)
+>>>
+
+
+
+
+

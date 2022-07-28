@@ -1,0 +1,58 @@
+>>> x = 10
+>>> type(x)
+<class 'int'>
+>>> x = 10.4
+>>> type(x)
+<class 'float'>
+>>>
+>>> x = True
+>>> type(x)
+<class 'bool'>
+>>> a = b = c = 10
+>>> print(a)
+10
+>>> print(b)
+10
+>>> print(c)
+10
+>>> a, b, c = 10, 20, 30
+>>> a
+10
+>>> b
+20
+>>> c
+30
+>>>
+>>> and = 10
+  File "<stdin>", line 1
+    and = 10
+    ^
+SyntaxError: invalid syntax
+>>> True = 10
+  File "<stdin>", line 1
+    True = 10
+    ^
+SyntaxError: cannot assign to True
+>>> And = 10
+>>> print(And)
+10
+>>> x = 10
+>>> X = 20
+>>> x,X
+(10, 20)
+>>> sal = 1000
+>>> Sal = 1000
+>>> except = 'Madhu'
+  File "<stdin>", line 1
+    except = 'Madhu'
+    ^
+SyntaxError: invalid syntax
+>>> exceptt = 'Madhu'
+>>>
+>>> _name = 'Madhu'
+>>> _123 = 10000
+>>> 123 = 1000
+  File "<stdin>", line 1
+    123 = 1000
+    ^
+SyntaxError: cannot assign to literal

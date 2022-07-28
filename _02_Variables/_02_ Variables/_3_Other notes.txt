@@ -1,0 +1,305 @@
+# Hadling Direct/Individual/Final value:
+----------------------------------------
+>>> x = 10
+>>> # x -> variable,  10 -> value,  =  --> Operator
+...
+>>> x = 10 # write operation
+>>> id(x)
+1697475888
+>>> type(x)
+<class 'int'>
+>>> print(x) # read operation
+10
+
+
+
+# Handle expression:
+-------------------
+>>> x = 10+20+30
+>>> print(x)
+60
+>>>
+
+# Float value :
+----------------
+>>> x = 10.5
+>>> id(x)
+2467076772176
+>>> type(x)
+<class 'float'>
+>>> print(x)
+10.5
+>>>
+
+# Boolean:
+---------------
+>>> is_active = False
+>>> type(is_active)
+<class 'bool'>
+>>> id(is_active)
+1696985344
+>>>
+>>> print(is_active)
+False
+>>>
+
+
+
+>>> x = 10
+>>> '''
+... x --> LHS --> variable
+... = -->     --> assignment operator
+... 10 -> RHS --> value
+
+
+# Type declaration
+===================
+>>> int x = 10;   # Value type and variable type should be same
+>>> float x = 10.5;
+>>> bool is_active = True;
+
+Python:  TD -- XXX
+=====================
+>>> x = 10
+
+# Case sensitive programming language
+x and X are different
+
+
+# Find type:
+---------------
+>>> print(x)
+10
+>>> x = 10.5
+>>> type(x)
+<class 'float'>
+>>> x = 10
+>>> type(x)
+<class 'int'>
+>>>
+>>> abc = True
+>>> type(abc)
+<class 'bool'>
+
+# One value to mulitple variables :
+=======================================
+>>> a = b = c = 10
+>>> print(a)
+10
+>>> print(b)
+10
+>>> print(c)
+10
+>>> b = 20
+>>> print(a,b,c)
+10 20 10
+>>> c = 30
+>>> print(a,b,c)
+10 20 30
+>>> a = 100
+>>> print(a,b,c)
+100 20 30
+>>>
+
+# multiple values to multiple variables
+>>> a,b,c = 10, 23.2, True
+>>> print(a,b,c)
+10 23.2 True
+>>> b = 33.3
+>>> print(a,b,c)
+10 33.3 True
+>>> c = False
+>>> print(a,b,c)
+10 33.3 False
+>>>
+
+
+float x = 10   ==> float x = (float)10  # bydefault  # Implicit casting
+x = 10.5
+
+int x = 10.5 ==>  int x = (int)10.5     # manually   # Explicit cating
+
+
+   
+x = 10
+print(x)
+adddata = 1022
+
+_ad = 202
+# is = 10
+is_1 = 10
+_is = 10
+is_ = 10
+
+# First char should not be number
+_123 = 100
+# 123 = 100
+# 0123 = 10
+
+
+
+
+'''
+
+
+x = 10 
+
+LHS : variable    --> Identifier
+RHS : value       --> Literal
+=   : separator  ---> Operator
+
+constants : 
+COMPANY_NAME = 'Oracle'
+
+'''
+
+
+
+# 1. KEYWORDS ---> Reserved words
+# ex: is in as
+x = 10
+# is = 10 ---> is    is a keyword
+was = 10
+
+# 2. Identifiers: variable, functionname, classname, object, module
+
+_1var = 10
+print(_1var)
+
+message = "HelloWorld"
+employeedetails = 'MadhuNsdfsfdsfdsf'
+emp_details = 'Madhusdfadsfsdf'
+
+# 3. Literals:
+x = 10        # 10 Integer Literal
+val = 10.5    # 10.5 float literal
+exits = True  # True boolean literal
+message = 'Hello World'  # String literal
+
+# 4. Operators  Arithmetic ops : + - * / // %
+print(2+3)  # 2,3 -->  vals/Operands      + --> Operator
+x = 10      # = Operator
+
+# 5. Constants
+x = 10
+print(x)
+x = 20
+print(x)
+
+NAME = 'MadhuNettem'  # NAME is constant
+PI = 3.14
+print(PI)
+PI = 323
+print(PI)
+
+# for word in str1.split(" "):
+'''
+for  ->  Keyword
+word -> Identifier
+in   -> keyword/Operator
+str1 -> Identifier
+split ->Identifier
+
+'''
+
+>>> x = 10  # write operation
+>>> print(x) # read operation
+10
+>>> x = 20
+>>> print(x)
+20
+>>> x = 10
+>>> print(x)
+10
+>>> y = 10
+>>> print(x)
+10
+>>> z = 10
+>>> print(x)
+10
+>>> print(z)
+10
+>>> print(id(x), id(y), id(z))
+1378708784 1378708784 1378708784
+>>> print(x,y,z)
+10 10 10
+>>> del x
+>>> print(x)   # ERROR
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> print(y,z)
+10 10
+>>> del y
+>>> print(y,z)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'y' is not defined
+>>> print(z)
+10
+>>> del z
+>>> print(z)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z' is not defined
+>>>
+>>> x = 10
+>>> print(x, id(x))
+10 1378708784
+>>> X = 20
+>>> print(X, id(X))
+20 1378709104
+>>> print(x,X)
+10 20
+>>>
+
+
+>>> x = 10
+>>> print(x)
+10
+>>>
+>>>
+>>> x = 20
+>>> print(x)
+20
+>>>
+
+_1_variables file
+--------------------
+>>> x = y = z = 10
+>>> print(x,y,z)
+10 10 10
+>>> z = 20
+>>> print(x,y,z)
+10 10 20
+>>> y = 30
+>>> print(x,y,z)
+10 30 20
+>>> x = 40
+>>> print(x,y,z)
+40 30 20
+
+
+_2_Variables:
+--------------
+
+
+
+
+>>> x = 10,20
+>>> print(x, type(x))
+(10, 20) <class 'tuple'>
+
+>>> x = 10,20
+>>> print(x, type(x))
+(10, 20) <class 'tuple'>
+>>>
+>>> x,y = 10,20
+>>> print(x,y)
+10 20
+>>> x,y = 10,20,30,40
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: too many values to unpack (expected 2)
+>>>
+

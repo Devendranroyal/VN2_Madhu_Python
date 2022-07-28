@@ -1,0 +1,70 @@
+>>> x = 10 # dynamically typed programming language
+>>> x
+10
+>>> print(x)
+10
+>>> x = 10   # write operation  
+	
+	LHS = RHS 
+	x   -> variable  
+	=   -> operator   
+	10  -> value
+
+ --> Here execution starts from RHS then to LHS
+ --> Converts RHS to binary format 
+ 
+ 
+ >>> id(x)   # To get address of variable x referring to 
+3170058201680
+ 
+ >>> print(x)  # read operation
+10
+>>>
+
+
+Number System:
+---------------
+>>> x = 10
+>>> id(x)
+3170058201680
+>>> type(x)
+<class 'int'>
+>>>
+>>> x = 10.5
+>>> id(x)
+3170071758480
+>>> type(x)
+<class 'float'>
+
+
+Boolean:
+------------
+>>> x = True
+>>> id(x)
+140718478518376
+>>> type(x)
+<class 'bool'>
+>>> print(x)
+True
+>>>
+
+
+>>> x
+10
+>>> X
+20
+>>> x = 10
+>>>
+>>> y = 10
+>>> Y
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Y' is not defined
+>>>
+>>>
+>>>
+
+
+
+
+

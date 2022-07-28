@@ -1,0 +1,8 @@
+
+https://www.javatpoint.com/python-tutorial       
+https://www.tutorialspoint.com/python3/index.htm
+https://www.python.org/doc/
+
+Documentation official:
+---------------------------
+C:\Users\<madhu>\AppData\Local\Programs\Python\Python36\Doc \python365 
