@@ -1,0 +1,101 @@
+SDLC:
+------
+1. Requirement Gathering
+2. Analysis --> Functional/Technical
+3. Design
+4. Development
+5. Testing
+6. Deployment
+
+
+
+
+Lastname, Firstname, New York, (917) 958-1191
+Firstname Lastname, 9179581191, New York
+Firstname, Lastname, (917) 358-1291, California
+
+
+
+Contraints:
+---------------
+1. firstname,lastname positions may alter
+2. city, mobileno positions may later
+3. Mobile number displays in 2 ways 
+
+
+phone_dataset.csv
+---------------------
+Doe, John, New York, (917) 958-1191
+Doe, John, California, (212) 234-1191
+John Smith, 9179581191, New York
+Bill, Gates, (917) 358-1291, New York
+Doe, John, Florida, (919) 234-1192
+
+
+query.txt
+---------
+Doe
+Smith
+Gates
+Madhu
+
+
+output.txt
+-------------
+Matches for: Doe
+Result 1: Doe, John, New York, (917) 958-1191
+Result 2: Doe, John, California, (212) 234-1191
+Result 3: Doe, John, Florida, (919) 234-1192
+
+Matches for: Smith
+Result 1: Smith, John, New York, (917) 958-1191
+
+Matches for: Gates
+Result 1: Gates, Bill, New York, (212) 333-1191
+
+Matches for: Madhu
+No results found
+
+
+Technical analysis:
+-----------------------
+1. Read telephone directory results (phone_dataset.csv) into python dict/list 
+   Format the data in proper way 
+    firstnme lastname  mobileno city 
+	---------------------------------
+	Doe, John, New York, (917) 958-1191
+	Doe, John, California, (212) 234-1191
+	John Smith, New York, (917) 958-1191
+	Bill, Gates, New York, (917) 358-1291 
+	Doe, John, Florida, (919) 234-1192
+
+3. Read query.txt input names 
+
+4. For each name, search in #2 data 
+   If matched, display the results 
+   Else        dispaly  No results Found
+   
+   
+Design:
+---------
+
+
+if __name__ == '__main__':
+	data = read_csv_file(filename)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
