@@ -1,0 +1,49 @@
+phone_dataset.csv
+-------------------
+Doe, John, New York, (917) 958-1191
+Doe, John, California, (212) 234-1191
+John, Smith, 9179581191, New York
+Bill, Gates, (917) 358-1291, New York
+Doe, John, Florida, (919) 234-1192
+
+#1 Read line by line from csv file 
+#2 Restrcture the data 
+   - Swap city,phoneno
+   - Format phoneno as per standards
+   res_data = [[]] [{}]
+#3 Load data from  query.txt into list names  [Doe,Smith,Gates,Abc]
+#4 Iterate through each name, and search the name in res_data 
+		output  = [] {}
+		for name in names:
+			for record in res_data:
+				# comaprion logic 
+				# Store into list or dict
+			
+#5 create new file output.txt and load to it.
+
+data = [{'firstname':'Doe',
+		'lastname':'John',
+		'city':'New York'
+		'phone;'234324324'
+		},
+		.....
+		]
+
+query.txt
+-------------
+DOE
+Smith
+Gates
+Abc
+
+REQUIREMENT:
+Retrieve each name from query.txt and search in
+photedata results. If found load the results into output.txt
+else load NO RECORDS
+
+Solution:
+------------
+# STATE
+
+
+# BHHAVIOR

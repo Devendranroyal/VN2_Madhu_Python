@@ -1,0 +1,10 @@
+hello world this is my first file
+welcome to python programming
+In our database section you will learn how to access and work with MySQL and MongoDB databases:
+Python MySQL Tutorial
+Python MongoDB Tutorial
+Python Exercises
+Test Yourself With Exercises
+Exercise:
+Insert the missing part of the code below to output "Hello World".
+("Hello World")
