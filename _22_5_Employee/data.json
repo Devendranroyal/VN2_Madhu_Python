@@ -1,0 +1,15 @@
+{
+    "firstName": "madhu",
+    "lastName": "mettem",
+    "gender": "male",
+    "age": 24,
+    "address": {
+        "streetAddress": "1st Line",
+        "city": "BANGALORE",
+        "state": "karnataka",
+        "postalCode": "560066"
+    },
+    "phoneNumbers": [
+        { "type": "home", "number": "7406900500" }
+    ]
+}
