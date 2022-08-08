@@ -1,0 +1,105 @@
+Instructions:
+---------------
+	1. Use proper namaing conventions
+	2. Use pep8 standards
+	3. Write readable and clean code 
+	4. Where ever required use functions,oops,exception hanlding etc.,
+	5. Give detailed comments if required 
+	6. Write all programs in one .py file 
+	
+	For ex: 
+	
+	EID_Name.py 
+	------------
+	print("--------------Program 1-------------------")
+	print(" ------Get ODD NUMBERS -----")
+	print(" ------- 1.a. List Comprehension ------ ")
+		code
+	print(" ------- 1.b. Normal For Loop -------")
+		code
+	print(" ------- 1.c. Generator mechanism ----")
+		code
+
+1. Program to find  first 20 the odd and even numbers from 1 to 100
+      a. Using list compreshension
+	  b. Using normal for loop
+	  c. Using generator mechanism
+
+2.  Program to find out the 
+   Average, 
+   Sum,
+   Mulitplication, 
+   Highest, 
+   Lowest and 
+   Middle element of a list of integers
+   li = [10,23,32,45,25,68,89,110]
+    
+	a. Maths Approach. Write Design Steps
+    	b. Algorithm
+	
+	  
+3.  Program to find the Factorial of a number using recursion
+4.  Program to implement Binary Search
+5.  For a given String.Do below actions
+		a. Algorithm to find length of string
+		b. Get dictionary with char as key and its count as value 
+		c. Find vowels,consonants count in dictionary format 
+		d. Find special character count 
+		e. Replace special characters in string with X
+		f. Find upper and lower case characters in dict format 
+	str1 = 'Hel%lo$ Welc0m3 t9 Py77o8 Pr03#&^inG'
+
+6  # Input
+   l1 = [1, 2, 3]
+   l2 = ["ABC", "DEF", "GHI", "JKL", "MNO"]
+
+   # output = {1:"ABC", 2:"DEF",3:"GHI",1:"JKL",2:"MNO"
+   
+7. For a Product Latop(HP,Dell,Lenovo, Apple) below are the fields
+	1. Product ID
+	2. Product Name
+	3. Brand
+	4. Price
+	5. Color
+	6. RAM 
+	
+	Create Product class and 3 objects for all 3 products(HP,Dell Lenovo)
+	Compare all products and get highest cost, lowest cost, highest ram, lowest ram laptop details
+
+8. Create Employee class with eid,name,sal,exp,rating(in years).
+   Take average of exp,rating and if 
+	a. Avg is less than  2 : Give 10% Hike
+	b. Avg is greater than or equal to 2 and less than 5, give 20% hike
+	c. Avg is greater than or equal to 5 and lessthan 8, give 30% Hike
+	
+9. Implement a program which covers class,instance,static,methods with proper exception hanlding 
+   in all methods 
+   
+10. Load given text file, 
+       a. Convert it to json and save into Desktop 
+	   b. Save all the data into database 
+	      Use OOPs concepts in all controller,service,dao layers and use proper exception,file handling ops
+		  
+data.txt
+=============
+Email,Identifier,Firstname,Lastname
+rachel@yourcompany.com,9012,Rachel,Booker
+laura@yourcompany.com,2070,Laura,Grey
+craig@yourcompany.com,4081,Craig,Johnson
+mary@yourcompany.com,9346,Mary,Jenkins
+jamie@yourcompany.com,5079,Jamie,Smith
+	
+	
+	
+	
+	
+	
+   
+	
+	
+	
+	
+	
+	
+	
+	
